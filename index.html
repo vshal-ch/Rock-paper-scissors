@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#141539" />
+    <meta name="msapplication-navbutton-color" content="#141539" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#141539" />
+    <meta
+      name="description"
+      content="Simple Rock Paper Scissors game with best UI you can view your last five(5) plays in history and you can view the score"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Rock, Paper, Scissors | Made by Vishal Ch" />
+    <meta property="og:description" content="Simple rock paper scissors game with best UI you can view your last five(5) plays in history and you can view the score" />
+    <meta property="og:image" content="./images/favicon.svg" />
+    <!-- <meta property="og:url" content="" />
+    <meta property="og:site_name" content="SITE NAME" /> -->
+
+    <link
+      rel="icon"
+      type="image/svg"
+      sizes="64x64"
+      href="./images/favicon.svg"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock, Paper, Scissors | Made by Vishal Ch</title>
+  </head>
+  <script src="./script.js" defer></script>
+  <body>
+    <div class="rule-back">
+      <section class="rules-container">
+        <h2 class="rule-title">RULES</h2>
+        <img
+          src="./images/image-rules.svg"
+          alt="rock paper sissor rules"
+          class="rules"
+        />
+        <img src="./images/icon-close.svg" alt="close" class="cross" />
+      </section>
+    </div>
+
+    <main>
+      <section class="header">
+        <img
+          src="./images/logo.svg"
+          alt="rock paper scissors name"
+          class="title"
+        />
+        <div class="score-block">
+          <h4 class="score-title">SCORE</h4>
+          <span class="score">0</span>
+        </div>
+      </section>
+      <section class="game">
+        <section class="game-block active">
+          <div class="paper-block block" data-name="paper">
+            <img
+              src="./images/icon-paper.svg"
+              alt="hand logo svg"
+              class="paper"
+            />
+          </div>
+          <div class="scissors-block block" data-name="scissors">
+            <img
+              src="./images/icon-scissors.svg"
+              alt="hand logo svg"
+              class="scissors"
+            />
+          </div>
+          <div class="rock-block block" data-name="rock">
+            <img
+              src="./images/icon-rock.svg"
+              alt="hand logo svg"
+              class="rock"
+            />
+          </div>
+        </section>
+        <section class="match-block">
+          <div class="your-pick pick">
+            <div class="block">
+              <img
+                src="./images/icon-paper.svg"
+                alt="hand logo svg"
+                class="your-pick-image"
+              />
+            </div>
+            <h5 class="caption">YOU PICKED</h5>
+          </div>
+          <div class="result-block">
+            <h2 class="result-text">YOU LOSE</h2>
+            <button class="play-again-button">PLAY AGAIN</button>
+          </div>
+          <div class="comp-pick pick">
+            <div class="block">
+              <img
+                src="./images/icon-close.svg"
+                alt="logo svg"
+                class="comp-pick-image"
+              />
+            </div>
+            <h5 class="caption">COM PICKED</h5>
+          </div>
+        </section>
+      </section>
+      <section class="buttons-container">
+        <div class="history-container">
+          <img
+            src="./images/history.svg"
+            alt="history logo svg"
+            class="history-button"
+          />
+          <section class="history-block">
+            <p>PLAY FIRST</p>
+            <ul class="history-list"></ul>
+          </section>
+        </div>
+        <button class="rules-button">RULES</button>
+      </section>
+      <footer class="footer-container">
+        <div class="attribution">
+          <p class="my-details">
+            Developed by
+            <a href="https://www.github.com/vshal-ch" target="_blank">Me</a>.
+            Checkout my other
+            <a
+              href="https://vshal-ch.github.io/Memory_Game-with-emojis/"
+              target="_blank"
+              >Game</a
+            >
+          </p>
+          <p class="design-details">
+            Design by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
