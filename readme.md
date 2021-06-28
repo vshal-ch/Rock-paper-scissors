@@ -5,7 +5,7 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)g
+  - [Links](#links)
 ## Overview
 
 ### The requirements
