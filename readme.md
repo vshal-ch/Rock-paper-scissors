@@ -3,16 +3,10 @@
 ## Table of contents
 
 - [Overview](#overview)
-<<<<<<< HEAD
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-=======
   - [The challenge](#the-requirements)
   - [Screenshot](#desktop-screenshot)
   - [Links](#links)
   - [Built with](#built-with)
->>>>>>> 9aeafc6d637ba8580eeb157e11a322cadd30e635
 ## Overview
 
 ### The requirements
