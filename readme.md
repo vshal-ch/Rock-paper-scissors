@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Rock, Paper, Scissors](https://vshal-ch.github.io/Rock-paper-scissors)
 - My other game URL: [Memory game with emojis](https://vshal-ch.github.io/Memory_Game-with-emojis)
 
 ### Built with
